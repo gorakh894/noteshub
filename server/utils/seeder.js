@@ -127,9 +127,9 @@ const seedDB = async () => {
     // Create admin user
     // ⚠️ CHANGE THESE CREDENTIALS FOR YOUR ADMIN ACCOUNT
     const admin = await User.create({
-      name: 'Admin User',                    // Change this to your name
-      email: 'admin@enginotes.com',          // ← Change this to your email
-      password: 'admin123',                  // ← Change this to your password
+      name: 'Gorakh Hembade',                    // Change this to your name
+      email: 'gorakhahembade@gmail.com',          // ← Change this to your email
+      password: 'Gorakh@7030',                  // ← Change this to your password
       role: 'admin',
       branch: 'IT',
       year: 'Final',
